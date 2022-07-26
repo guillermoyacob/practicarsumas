@@ -1,0 +1,169 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: lightcyan;
+    font-family: 'Saira', sans-serif;
+}
+
+.div-central {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 520px;
+    height: 660px;
+    background-color: peachpuff;
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 70px;
+}
+
+.sumas {
+    font-size: 150px;
+}
+
+.input {
+    font-size: 60px;
+    max-width: 100px;
+    padding: 20px;
+    margin-right: 60px;
+}
+
+.boton {
+    padding: 20px;
+}
+
+.feedback {
+    font-size: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .titulo {
+        font-size: 50px;
+    }
+
+    .sumas {
+        font-size: 100px;
+    }
+
+    .input {
+        font-size: 30px;
+    }
+
+    .feedback {
+        display: block;
+        font-size: 50px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    body {
+        margin: 0%;
+    }
+
+    .div-central {
+        padding: 20px;
+        width: 300px;
+        height: 350px;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .subtitulo {
+        font-size: 20px;
+    }
+
+    .sumas {
+        font-size: 70px;
+    }
+
+    .input {
+        margin: 0%;
+        font-size: 20px;
+    }
+
+    .feedback {
+        display: block;
+        padding-top: 10px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .div-central {
+        margin-top: 0%;
+        padding: 20px;
+        width: 350px;
+        border-radius: 0% 0% 5% 5%;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .subtitulo {
+        font-size: 20px;
+    }
+
+    .sumas {
+        font-size: 70px;
+    }
+
+    .input {
+        margin: 0%;
+        font-size: 20px;
+    }
+
+    .feedback {
+        display: block;
+        padding-top: 10px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+    .div-central {
+        padding: 0px;
+        margin-top: 0%;
+        width: 320px;
+        border-radius: 0% 0% 5% 5%;
+    }
+
+    .titulo {
+        font-size: 35px;
+    }
+
+    .subtitulo {
+        font-size: 15px;
+    }
+
+    .sumas {
+        font-size: 65px;
+    }
+
+    .input {
+        margin: 0%;
+        font-size: 16px;
+    }
+
+    .feedback {
+        display: block;
+        padding-top: 10px;
+        font-size: 35px;
+    }
+}
